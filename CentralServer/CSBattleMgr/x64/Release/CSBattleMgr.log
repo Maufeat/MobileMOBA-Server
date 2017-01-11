@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/11/22 1:43:11。
+     1>项目“E:\Src\[src.cool]最后一战\Server\CentralServer\CSBattleMgr\CSBattleMgr.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\CSBattleMgr.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       Link:
+         所有输出均为最新。
+         CSBattleMgr.vcxproj -> E:\Src\[src.cool]最后一战\Server\CentralServer\CSBattleMgr\..\..\Bin\x64\Release\CSBattleMgr.exe
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\CSBattleMgr.unsuccessfulbuild”。
+         正在对“x64\Release\CSBattleMgr.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Src\[src.cool]最后一战\Server\CentralServer\CSBattleMgr\CSBattleMgr.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02

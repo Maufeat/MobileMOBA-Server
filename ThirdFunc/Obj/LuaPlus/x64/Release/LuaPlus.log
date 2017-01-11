@@ -1,0 +1,110 @@
+﻿生成启动时间为 2015/4/12 0:06:48。
+     1>项目“C:\work\Server\ThirdFunc\LuaPlus\LuaPlus.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“..\Bin\x64\Release\”。
+       InitializeBuildStatus:
+         正在创建“..\Obj\LuaPlus\x64\Release\LuaPlus.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\Include\LuaPlus /I..\Include\LuaPlus\src /Zi /nologo /W3 /WX- /O2 /D LUA_OPNAMES /D WIN32 /D _WINDOWS /D LUAPLUS_LIB /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\Obj\LuaPlus\x64\Release\\" /Fd"..\Obj\LuaPlus\x64\Release\vc100.pdb" /Gd /TP /wd4996 /errorReport:prompt LuaObject.cpp LuaPlus.cpp LuaPlus_Libs.cpp LuaState.cpp LuaStateOutFile.cpp LuaState_DumpObject.cpp LuaTableIterator.cpp  
+         LuaObject.cpp
+         LuaPlus.cpp
+     1>LuaPlus.cpp(211): warning C4297: “FatalError”: 假定函数不引发异常，但确实发生了
+                 函数是 extern "C" 并且指定了 /EHc
+         LuaPlus_Libs.cpp
+         LuaState.cpp
+         LuaStateOutFile.cpp
+         LuaState_DumpObject.cpp
+         LuaTableIterator.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\Include\LuaPlus /I..\Include\LuaPlus\src /Zi /nologo /W3 /WX- /O2 /D LUA_OPNAMES /D WIN32 /D _WINDOWS /D LUAPLUS_LIB /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\Obj\LuaPlus\x64\Release\\" /Fd"..\Obj\LuaPlus\x64\Release\vc100.pdb" /Gd /TC /wd4996 /errorReport:prompt LuaPlusAddons.c lwstrlib.c popen.c src\lapi.c src\lauxlib.c src\lbaselib.c src\lcode.c src\ldblib.c src\ldebug.c src\ldo.c src\ldump.c src\lfunc.c src\lgc.c src\linit.c src\liolib.c src\llex.c src\lmathlib.c src\lmem.c src\loadlib.c src\lobject.c src\lopcodes.c src\loslib.c src\lparser.c src\lstate.c src\lstring.c src\lstrlib.c src\ltable.c src\ltablib.c src\ltm.c src\lua.c src\lundump.c src\lvm.c src\lzio.c src\print.c  
+         LuaPlusAddons.c
+         lwstrlib.c
+         popen.c
+         lapi.c
+         lauxlib.c
+         lbaselib.c
+         lcode.c
+         ldblib.c
+         ldebug.c
+         ldo.c
+         ldump.c
+         lfunc.c
+         lgc.c
+     1>src\lgc.c(311): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+         linit.c
+         liolib.c
+         llex.c
+         lmathlib.c
+         lmem.c
+         loadlib.c
+         lobject.c
+         Generating Code...
+         Compiling...
+         lopcodes.c
+         loslib.c
+         lparser.c
+         lstate.c
+         lstring.c
+         lstrlib.c
+         ltable.c
+     1>src\ltable.c(382): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+     1>src\ltable.c(447): warning C4334: “<<”: 32 位移位的结果被隐式转换为 64 位(是否希望进行 64 位移位?)
+         ltablib.c
+         ltm.c
+         lua.c
+         lundump.c
+         lvm.c
+         lzio.c
+         print.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"..\Bin\x64\Release\LuaPlus.lib" /NOLOGO ..\Obj\LuaPlus\x64\Release\LuaObject.obj
+         ..\Obj\LuaPlus\x64\Release\LuaPlus.obj
+         ..\Obj\LuaPlus\x64\Release\LuaPlusAddons.obj
+         ..\Obj\LuaPlus\x64\Release\LuaPlus_Libs.obj
+         ..\Obj\LuaPlus\x64\Release\LuaState.obj
+         ..\Obj\LuaPlus\x64\Release\LuaStateOutFile.obj
+         ..\Obj\LuaPlus\x64\Release\LuaState_DumpObject.obj
+         ..\Obj\LuaPlus\x64\Release\LuaTableIterator.obj
+         ..\Obj\LuaPlus\x64\Release\lwstrlib.obj
+         ..\Obj\LuaPlus\x64\Release\popen.obj
+         ..\Obj\LuaPlus\x64\Release\lapi.obj
+         ..\Obj\LuaPlus\x64\Release\lauxlib.obj
+         ..\Obj\LuaPlus\x64\Release\lbaselib.obj
+         ..\Obj\LuaPlus\x64\Release\lcode.obj
+         ..\Obj\LuaPlus\x64\Release\ldblib.obj
+         ..\Obj\LuaPlus\x64\Release\ldebug.obj
+         ..\Obj\LuaPlus\x64\Release\ldo.obj
+         ..\Obj\LuaPlus\x64\Release\ldump.obj
+         ..\Obj\LuaPlus\x64\Release\lfunc.obj
+         ..\Obj\LuaPlus\x64\Release\lgc.obj
+         ..\Obj\LuaPlus\x64\Release\linit.obj
+         ..\Obj\LuaPlus\x64\Release\liolib.obj
+         ..\Obj\LuaPlus\x64\Release\llex.obj
+         ..\Obj\LuaPlus\x64\Release\lmathlib.obj
+         ..\Obj\LuaPlus\x64\Release\lmem.obj
+         ..\Obj\LuaPlus\x64\Release\loadlib.obj
+         ..\Obj\LuaPlus\x64\Release\lobject.obj
+         ..\Obj\LuaPlus\x64\Release\lopcodes.obj
+         ..\Obj\LuaPlus\x64\Release\loslib.obj
+         ..\Obj\LuaPlus\x64\Release\lparser.obj
+         ..\Obj\LuaPlus\x64\Release\lstate.obj
+         ..\Obj\LuaPlus\x64\Release\lstring.obj
+         ..\Obj\LuaPlus\x64\Release\lstrlib.obj
+         ..\Obj\LuaPlus\x64\Release\ltable.obj
+         ..\Obj\LuaPlus\x64\Release\ltablib.obj
+         ..\Obj\LuaPlus\x64\Release\ltm.obj
+         ..\Obj\LuaPlus\x64\Release\lua.obj
+         ..\Obj\LuaPlus\x64\Release\lundump.obj
+         ..\Obj\LuaPlus\x64\Release\lvm.obj
+         ..\Obj\LuaPlus\x64\Release\lzio.obj
+         ..\Obj\LuaPlus\x64\Release\print.obj
+         LuaPlus.vcxproj -> C:\work\Server\ThirdFunc\LuaPlus\..\Bin\x64\Release\LuaPlus.lib
+       FinalizeBuildStatus:
+         正在删除文件“..\Obj\LuaPlus\x64\Release\LuaPlus.unsuccessfulbuild”。
+         正在对“..\Obj\LuaPlus\x64\Release\LuaPlus.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\work\Server\ThirdFunc\LuaPlus\LuaPlus.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.08

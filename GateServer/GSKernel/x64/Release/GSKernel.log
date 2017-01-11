@@ -1,0 +1,1569 @@
+﻿生成启动时间为 2015/11/22 1:43:11。
+     1>项目“E:\Src\[src.cool]最后一战\Server\GateServer\GSKernel\GSKernel.vcxproj”在节点 4 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\GSKernel.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CONSOLE /D USE_PROFILE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\ELogging\DefLogging.cpp ..\..\Share\logger.cpp ..\..\Share\Net\ICliSession.cpp ..\..\Share\Net\IMsgHandle.cpp ..\..\Share\Net\INetSession.cpp ..\..\Share\Net\INetSessionMgr.cpp ..\..\Share\Net\ISrvCliSession.cpp ..\..\ThirdFunc\MsgLists\BSToGC.pb.cc ..\..\ThirdFunc\MsgLists\BSToGS.pb.cc ..\..\ThirdFunc\MsgLists\CSToGS.pb.cc ..\..\ThirdFunc\MsgLists\CSToSS.pb.cc ..\..\ThirdFunc\MsgLists\GCToBS.pb.cc ..\..\ThirdFunc\MsgLists\GCToCS.pb.cc ..\..\ThirdFunc\MsgLists\GCToSS.pb.cc ..\..\ThirdFunc\MsgLists\GSToBS.pb.cc ..\..\ThirdFunc\MsgLists\GSToCS.pb.cc ..\..\ThirdFunc\MsgLists\GSToGC.pb.cc ..\..\ThirdFunc\MsgLists\GSToSS.pb.cc ..\..\ThirdFunc\MsgLists\ParseProto.cpp ..\..\ThirdFunc\MsgLists\SSToCS.pb.cc ..\..\ThirdFunc\MsgLists\SSToGS.pb.cc GSKernel.cpp GSKernel_MainThread.cpp GSKernel_MainThread_CSMsgHandler.cpp GSKernel_MainThread_GCMsgHandler.cpp GSKernel_MainThread_SSMsgHandler.cpp GSSSInfo.cpp main.cpp Net\ClientSession.cpp Net\GSNetSessionMgr.cpp Net\M2BSession.cpp Net\M2CSession.cpp Net\M2SSession.cpp stdafx.cpp
+         DefLogging.cpp
+         logger.cpp
+         ICliSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+         IMsgHandle.cpp
+         INetSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\Share\Net\INetSession.cpp(185): warning C4267: “初始化”: 从“size_t”转换到“UINT32”，可能丢失数据
+         INetSessionMgr.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>..\..\Share\Net\INetSessionMgr.cpp(18): warning C4244: “=”: 从“DWORD”转换到“UINT8”，可能丢失数据
+     1>..\..\Share\Net\INetSessionMgr.cpp(59): warning C4018: “<=”: 有符号/无符号不匹配
+     1>..\..\Share\Net\INetSessionMgr.cpp(189): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         ISrvCliSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+         BSToGC.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(308): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(325): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(357): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(406): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(416): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(431): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(462): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(473): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGC.pb.cc(489): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         BSToGS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(633): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(650): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(682): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(731): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(741): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(756): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(787): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(798): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\BSToGS.pb.cc(814): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         CSToGS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToGS.pb.cc(771): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToGS.pb.cc(844): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToGS.pb.cc(879): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToGS.pb.cc(2503): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToGS.pb.cc(2607): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToGS.pb.cc(2663): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         CSToSS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(2787): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(2836): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(2867): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(3093): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(3136): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(3161): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4139): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4156): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4173): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4211): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4221): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4231): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4251): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4262): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4273): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4671): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4688): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(4705): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5050): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5111): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5121): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5131): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5252): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5295): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5306): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5317): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(5440): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9004): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9049): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9075): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9283): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9328): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9354): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9562): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9607): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9633): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9841): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9886): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(9912): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10120): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10165): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10191): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10399): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10444): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10470): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10678): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10723): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10749): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(10957): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11002): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11028): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11557): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11602): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11628): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11836): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11881): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(11907): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12115): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12186): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12394): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12439): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12465): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12673): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12718): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12744): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12952): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(12997): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13023): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13231): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13276): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13302): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13510): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13555): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13581): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13789): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13834): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(13860): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14068): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14113): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14139): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14347): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14392): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14418): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14626): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14671): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14697): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14905): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14950): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(14976): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15184): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15229): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15255): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15463): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15508): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15534): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15742): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15787): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(15813): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(16021): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(16066): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(16092): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(17573): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(17646): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(17681): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(18272): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(18454): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\CSToSS.pb.cc(18538): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GCToBS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(301): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(318): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(367): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(377): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(408): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(419): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(693): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(710): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(799): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(809): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(850): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToBS.pb.cc(861): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GCToCS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(2174): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(2218): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(2244): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(3592): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(3636): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(3662): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(4508): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(4552): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(4578): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(5119): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(5163): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(5189): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(5637): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(5681): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(5707): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(7691): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(7740): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(7771): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(8020): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(8069): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(8100): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(9740): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(9784): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(9810): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(11178): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(11228): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(11260): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(11784): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(11858): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(11894): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(12149): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(12208): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(12239): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(13337): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(13386): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(13417): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(13969): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(14013): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(14039): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(14886): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(14930): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(14956): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15242): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15259): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15276): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15293): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15347): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15357): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15367): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15377): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15413): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15424): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15435): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(15446): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(17143): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(17160): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(17204): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(17214): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(17240): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToCS.pb.cc(17251): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GCToSS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToSS.pb.cc(6915): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToSS.pb.cc(6959): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GCToSS.pb.cc(6985): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GSToBS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GSToCS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToCS.pb.cc(1249): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToCS.pb.cc(1281): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToCS.pb.cc(1330): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToCS.pb.cc(1345): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToCS.pb.cc(1376): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToCS.pb.cc(1392): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GSToGC.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(12118): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(12167): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(12198): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(14314): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(14398): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(14444): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(14983): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(15027): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(15053): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(15604): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(15746): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(15812): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(16730): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(16799): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(16836): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17486): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17503): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17520): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17537): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17586): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17596): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17606): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17616): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17647): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17658): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17669): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(17680): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(22250): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(22458): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(22538): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(24280): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(24342): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(24380): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(24405): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(24425): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(24451): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(25026): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(25085): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(25126): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(25665): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(25718): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(25743): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(26253): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(26356): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(26401): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27194): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27211): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27270): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27280): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27311): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27322): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27600): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27632): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27681): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27696): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27727): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(27743): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(28332): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(28349): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(28398): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(28408): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(28439): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(28450): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(29444): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(29461): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(29690): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(29700): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(29791): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(29802): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(30256): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(30305): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(30336): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(33372): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(33480): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(33530): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(40920): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(40969): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(41000): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(47693): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(47905): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(47984): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(48059): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(48100): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(48176): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(52262): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(52415): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(52480): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(64393): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(64471): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(64511): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(69033): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(69091): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(69121): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(69981): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(70064): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToGC.pb.cc(70109): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GSToSS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToSS.pb.cc(882): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToSS.pb.cc(931): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToSS.pb.cc(962): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToSS.pb.cc(1214): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToSS.pb.cc(1278): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\GSToSS.pb.cc(1314): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         ParseProto.cpp
+         SSToCS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(1989): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(2043): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(2079): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(3892): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(3924): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(3973): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(3988): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(4019): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToCS.pb.cc(4035): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         Compiling...
+         SSToGS.pb.cc
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(977): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/io/coded_stream.h(1162): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(822): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(823): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(826): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(827): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToGS.pb.cc(1198): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToGS.pb.cc(1253): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>..\..\ThirdFunc\MsgLists\SSToGS.pb.cc(1291): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(413): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint32,TYPE_FIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(414): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::uint64,TYPE_FIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::uint64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(415): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int32,TYPE_SFIXED32>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int32
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(416): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<google::protobuf::int64,TYPE_SFIXED64>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=google::protobuf::int64
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(417): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<float,TYPE_FLOAT>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=float
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(383): warning C4018: “<”: 有符号/无符号不匹配
+                 E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(418): 参见对正在编译的函数 模板 实例化“bool google::protobuf::internal::WireFormatLite::ReadPackedFixedSizePrimitive<double,TYPE_DOUBLE>(google::protobuf::io::CodedInputStream *,google::protobuf::RepeatedField<Element> *)”的引用
+                 with
+                 [
+                     Element=double
+                 ]
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/wire_format_lite_inl.h(393): warning C4018: “<”: 有符号/无符号不匹配
+         GSKernel.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         GSKernel_MainThread.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>GSKernel_MainThread.cpp(36): warning C4244: “+=”: 从“TIME_MILSEC”转换到“UINT32”，可能丢失数据
+     1>GSKernel_MainThread.cpp(54): warning C4244: “+=”: 从“TIME_MILSEC”转换到“UINT32”，可能丢失数据
+     1>GSKernel_MainThread.cpp(65): warning C4244: “初始化”: 从“float”转换到“DWORD”，可能丢失数据
+     1>GSKernel_MainThread.cpp(71): warning C4018: “>”: 有符号/无符号不匹配
+     1>GSKernel_MainThread.cpp(80): warning C4018: “>”: 有符号/无符号不匹配
+     1>GSKernel_MainThread.cpp(87): warning C4018: “>”: 有符号/无符号不匹配
+     1>GSKernel_MainThread.cpp(127): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>GSKernel_MainThread.cpp(149): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>GSKernel_MainThread.cpp(165): warning C4267: “参数”: 从“size_t”转换到“google::protobuf::uint32”，可能丢失数据
+     1>GSKernel_MainThread.cpp(272): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         GSKernel_MainThread_CSMsgHandler.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         GSKernel_MainThread_GCMsgHandler.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>GSKernel_MainThread_GCMsgHandler.cpp(81): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         GSKernel_MainThread_SSMsgHandler.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         GSSSInfo.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         main.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         ClientSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         GSNetSessionMgr.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+         M2BSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+         M2CSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>Net\M2CSession.cpp(41): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>Net\M2CSession.cpp(87): warning C4018: “<”: 有符号/无符号不匹配
+         M2SSession.cpp
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>Net\M2SSession.cpp(42): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         stdafx.cpp
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(38): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>e:\src\[src.cool]最后一战\server\elogging\elogging\Buffer.h(49): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1597): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1599): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1601): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1607): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1609): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1614): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1619): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1621): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1626): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1630): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/descriptor.h(1634): warning C4244: “return”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(141): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(239): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>E:\Src\[src.cool]最后一战\Server\ThirdFunc\google/protobuf/unknown_field_set.h(307): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>CL : warning : This header is deprecated. Please use: boost/spirit/include/classic.hpp
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(244): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\src\[src.cool]最后一战\server\gateserver\gskernel\../../CommonCPlus/Include/FBAll_Const.h(249): warning C4305: “初始化”: 从“double”到“const float”截断
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\x64\Release\GSKernel.exe" /INCREMENTAL:NO /NOLOGO ws2_32.lib Winmm.lib ..\..\Lib\x64\Release\libprotobuf.lib ..\..\Lib\x64\Release\tinyxml.lib ..\..\Share\DbgLib\Lib\DbgLib.lib "..\..\Lib\x64\Release\libboost_thread-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_atomic-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_chrono-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_system-vc100-mt-1_55.lib" "..\..\Lib\x64\Release\libboost_date_time-vc100-mt-1_55.lib" ..\..\Lib\x64\Release\libtcmalloc_minimal.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\GSKernel.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\GSKernel.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\Bin\x64\Release\GSKernel.lib" /MACHINE:X64 x64\Release\DefLogging.obj
+         x64\Release\logger.obj
+         x64\Release\ICliSession.obj
+         x64\Release\IMsgHandle.obj
+         x64\Release\INetSession.obj
+         x64\Release\INetSessionMgr.obj
+         x64\Release\ISrvCliSession.obj
+         x64\Release\BSToGC.pb.obj
+         x64\Release\BSToGS.pb.obj
+         x64\Release\CSToGS.pb.obj
+         x64\Release\CSToSS.pb.obj
+         x64\Release\GCToBS.pb.obj
+         x64\Release\GCToCS.pb.obj
+         x64\Release\GCToSS.pb.obj
+         x64\Release\GSToBS.pb.obj
+         x64\Release\GSToCS.pb.obj
+         x64\Release\GSToGC.pb.obj
+         x64\Release\GSToSS.pb.obj
+         x64\Release\ParseProto.obj
+         x64\Release\SSToCS.pb.obj
+         x64\Release\SSToGS.pb.obj
+         x64\Release\GSKernel.obj
+         x64\Release\GSKernel_MainThread.obj
+         x64\Release\GSKernel_MainThread_CSMsgHandler.obj
+         x64\Release\GSKernel_MainThread_GCMsgHandler.obj
+         x64\Release\GSKernel_MainThread_SSMsgHandler.obj
+         x64\Release\GSSSInfo.obj
+         x64\Release\main.obj
+         x64\Release\ClientSession.obj
+         x64\Release\GSNetSessionMgr.obj
+         x64\Release\M2BSession.obj
+         x64\Release\M2CSession.obj
+         x64\Release\M2SSession.obj
+         x64\Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+     1>DbgLib.lib(DebugFx.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“DbgLib.lib(DebugFx.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>DbgLib.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“DbgLib.lib(stdafx.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>DbgLib.lib(DebugHelp.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“DbgLib.lib(DebugHelp.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>DbgLib.lib(Utils.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“DbgLib.lib(Utils.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(atomicops_internals_x86_msvc.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(atomicops_internals_x86_msvc.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(coded_stream.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(coded_stream.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(common.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(common.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(descriptor.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor.pb.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(descriptor.pb.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(descriptor_database.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(descriptor_database.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(dynamic_message.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(dynamic_message.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(extension_set.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(extension_set_heavy.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(extension_set_heavy.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_reflection.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(generated_message_reflection.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(generated_message_util.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(generated_message_util.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(message.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(message_lite.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(message_lite.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(once.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(once.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(reflection_ops.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(reflection_ops.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(repeated_field.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(repeated_field.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(stringprintf.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(stringprintf.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strtod.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(strtod.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(structurally_valid.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(structurally_valid.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(strutil.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(strutil.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(substitute.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(substitute.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(text_format.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(text_format.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(tokenizer.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(tokenizer.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(unknown_field_set.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(unknown_field_set.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(wire_format.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(wire_format_lite.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(wire_format_lite.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(zero_copy_stream.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>libprotobuf.lib(zero_copy_stream_impl_lite.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“libprotobuf.lib(zero_copy_stream_impl_lite.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinystr.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinystr.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinyxml.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinyxml.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinyxmlerror.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinyxmlerror.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>tinyxml.lib(tinyxmlparser.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“tinyxml.lib(tinyxmlparser.obj)”或在“E:\Src\[src.cool]最后一战\Server\Bin\x64\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         GSKernel.vcxproj -> E:\Src\[src.cool]最后一战\Server\GateServer\GSKernel\..\..\Bin\x64\Release\GSKernel.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\Bin\x64\Release\GSKernel.exe;#1" /manifest x64\Release\GSKernel.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\GSKernel.unsuccessfulbuild”。
+         正在对“x64\Release\GSKernel.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Src\[src.cool]最后一战\Server\GateServer\GSKernel\GSKernel.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:38.77

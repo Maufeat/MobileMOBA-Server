@@ -1,0 +1,6 @@
+﻿     Création de la bibliothèque ..\..\..\bin\x64\Release\ucodenet.lib et de l'objet ..\..\..\bin\x64\Release\ucodenet.exp
+  Génération de code en cours
+  All 1320 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
+  ucodenet.vcxproj -> C:\git\HeroesEvolved-Server\UCore\project\win\ucodenet\..\..\..\bin\x64\Release\ucodenet.dll
+  ucodenet.vcxproj -> ..\..\..\bin\x64\Release\ucodenet.pdb (Full PDB)

@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Battle">
+      <UniqueIdentifier>{0343c9dc-2eb1-4df4-95cb-4591230bb0df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleMatch">
+      <UniqueIdentifier>{84eeb771-a271-4188-b8ec-c4dc2be60ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleMatcher">
+      <UniqueIdentifier>{8600af61-1cb4-4f73-b2cd-940aefcebb33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleRoom">
+      <UniqueIdentifier>{c6ea2808-9d1e-4079-a865-13537afd9b44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cfg">
+      <UniqueIdentifier>{f564ca01-3c8d-4c6a-87e6-63c21051a1e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="db">
+      <UniqueIdentifier>{545292f0-1fcf-4065-b70c-5142ccdc2550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gLog">
+      <UniqueIdentifier>{6897a379-5eba-4ba5-b3a2-90d54778ce15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GM">
+      <UniqueIdentifier>{c0ed200e-d3de-4a32-b93e-61622f15e82e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guide">
+      <UniqueIdentifier>{355f6c20-3de4-40d8-bed6-b9fed7c79f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{cd12455b-285a-418e-b804-53b683c36360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{a0db6717-3d95-447a-9e7b-0c88fa813f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{c948c31d-1c42-4ea4-8698-90305559924c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="money">
+      <UniqueIdentifier>{d516fddd-b103-4fd1-8cf0-851211327e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mail">
+      <UniqueIdentifier>{67c4bc5f-8d00-478b-99c8-765699ec3709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pb">
+      <UniqueIdentifier>{5310bedf-d963-4d88-8d15-53155de79631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{97f7fcf0-0f34-4e4e-bc77-f3bf659208d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TaskSys">
+      <UniqueIdentifier>{87641baa-25b2-4905-9757-526ed6cbc37d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{9cfbbf7c-0aac-4630-90d0-b0bf33acee7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{f786eaff-3d40-4a66-b3f2-23fb9051aba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UserMgr">
+      <UniqueIdentifier>{f2bb72c5-c683-445f-bd41-b13bd9551d41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WorldFilter">
+      <UniqueIdentifier>{cbc69331-1589-4b60-8ea3-b3b1213f0499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleMatcher\src">
+      <UniqueIdentifier>{55621ded-ba12-4a9f-b3bc-033d9fa8b9a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleRoom\BattleMgr">
+      <UniqueIdentifier>{aba3d09b-96a0-4578-a44f-e118fca06591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cfg\cdkey">
+      <UniqueIdentifier>{00736964-b413-48b2-abbb-f0ac9aab9cbd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="CSBattle.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattle_MsgPoster.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMatcher.cpp">
+      <Filter>BattleMatch</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMatcher\src\CMatchList_Nomal.cpp">
+      <Filter>BattleMatcher\src</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMatcher\src\CMatchList_Tianti.cpp">
+      <Filter>BattleMatcher\src</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMatcher\src\CMatchList_VsAI.cpp">
+      <Filter>BattleMatcher\src</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMatcher\src\CMatchMgr.cpp">
+      <Filter>BattleMatcher\src</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMatcher\src\CMatchTeam.cpp">
+      <Filter>BattleMatcher\src</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleMatcher\src\IMatchList.cpp">
+      <Filter>BattleMatcher\src</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleRoom.cpp">
+      <Filter>BattleRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr_AskHandler.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr_DBCallBacker.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr_GCMsg.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr_GSMsg.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr_RCMsg.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSBattleMgr_SSMsg.cpp">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSCfgMgr.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserCfgMgr.cpp">
+      <Filter>cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_SynCdkeyDbCalBack.cpp">
+      <Filter>cfg\cdkey</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CSDataSource.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserDbDataMgr.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DBActiveWrapper.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DBMgr.cpp">
+      <Filter>db</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CommLog.cpp">
+      <Filter>gLog</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGameLogMgr.cpp">
+      <Filter>gLog</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_GMMsg.cpp">
+      <Filter>GM</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGuideBattle.cpp">
+      <Filter>Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserGuideFunc.cpp">
+      <Filter>Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_GCGuideMsg.cpp">
+      <Filter>Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGSInfo.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSKernel.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSKernel_MainThread.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="CSSSInfo.cpp">
+      <Filter>Kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DefLogging.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="CSMailMgr.cpp">
+      <Filter>Mail</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_SynMoneyDbCalBack.cpp">
+      <Filter>money</Filter>
+    </ClCompile>
+    <ClCompile Include="async.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="dict.c">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="hiredis.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ICliSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\IMsgHandle.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSessionMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ISrvCliSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\CSLogSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\CSNetSessionMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\GateSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\LogicRedisSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\RedisSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\RemoteConsoleSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\SceneSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="sds.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="zmalloc.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="CSWordFilter.cpp">
+      <Filter>WorldFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_AskHandler.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_GCMsg.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_GSMsg.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_MailMsg.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_Notice.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_RCMsg.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_RedisSynCallback.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_SSMsg.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_SynUserAskDBCallBack.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_UserAskDBAsyn.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUserMgr_UserCacheDBAsynHandler.cpp">
+      <Filter>UserMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUser.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="CSUser_MsgPoster.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\SSActive.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\Timer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSys\Task.cpp">
+      <Filter>TaskSys</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskSys\TaskMgr.cpp">
+      <Filter>TaskSys</Filter>
+    </ClCompile>
+    <ClCompile Include="CSScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\BSToGC.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\BSToGS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToDB.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToGS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToRC.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToSS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\DBToCS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToBS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToCS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToSS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToBS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToCS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToGC.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToSS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ParseProto.cpp">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\RCToCS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\SSToCS.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ToLog.pb.cc">
+      <Filter>pb</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="CSBattle.h">
+      <Filter>Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="CSBattleMatcher.h">
+      <Filter>BattleMatch</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMatcher\CMatchList_Nomal.h">
+      <Filter>BattleMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMatcher\CMatchList_Tianti.h">
+      <Filter>BattleMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMatcher\CMatchList_VsAI.h">
+      <Filter>BattleMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMatcher\CMatchMgr.h">
+      <Filter>BattleMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMatcher\CMatchTeam.h">
+      <Filter>BattleMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleMatcher\IMatchList.h">
+      <Filter>BattleMatcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CSBattleRoom.h">
+      <Filter>BattleRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="CSBattleMgr.h">
+      <Filter>BattleRoom\BattleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSCfgMgr.h">
+      <Filter>cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CSDataSource.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="CSUserDbDataMgr.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DBActiveWrapper.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DBMgr.h">
+      <Filter>db</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CommLog.h">
+      <Filter>gLog</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGameLogMgr.h">
+      <Filter>gLog</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGuideBattle.h">
+      <Filter>Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGSInfo.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSKernel.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSRCInfo.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSSSInfo.h">
+      <Filter>Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DefLogging.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ELoggingHeader.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="CSMailMgr.h">
+      <Filter>Mail</Filter>
+    </ClInclude>
+    <ClInclude Include="async.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="dict.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="hiredis.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ICliSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\IMsgHandle.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSessionMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ISrvCliSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\CSLogSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\CSNetSessionMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\GateSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\LogicRedisSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\ParsePacket.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\RedisSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\RemoteConsoleSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\SceneSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="sds.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="zmalloc.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="CSWordFilter.h">
+      <Filter>WorldFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="CSUserMgr.h">
+      <Filter>UserMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CSUser.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="CSUserDBDataStruct.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RedisHelper.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SafeRefPtr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SSElementArr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\SSActive.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\Timer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskSys\Task.h">
+      <Filter>TaskSys</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskSys\TaskMgr.h">
+      <Filter>TaskSys</Filter>
+    </ClInclude>
+    <ClInclude Include="CSScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\BSToGC.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\BSToGS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToDB.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToGS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToRC.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToSS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\DBToCS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToBS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToCS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToSS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToBS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToCS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToGC.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToSS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ParseProto.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\RCToCS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\SSToCS.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ToLog.pb.h">
+      <Filter>pb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\SSElementArr.inl">
+      <Filter>Tools</Filter>
+    </None>
+  </ItemGroup>
+</Project>

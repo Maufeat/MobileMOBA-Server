@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BCCE07DC-1FE1-4B4D-B91C-3FAC6F2000C8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CSBattleMgr</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tinyxml;C:\local\boost_1_63_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Common;C:\tinyxml;C:\local\boost_1_63_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\tinyxml;C:\local\boost_1_63_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CSDATASOURCE_EXPORTS;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\ThirdParty\MsgLists;..\ThirdParty\LuaPlus\src;..\ThirdParty\LuaPlus;..\Common;..\ThirdParty\tinyxml;..\ThirdParty\boost_1_63_0;..\ThirdParty;..\ELogging;..\ThirdParty\tbb_lib;..\ThirdParty\UCore\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../ThirdParty/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;libprotobuf.lib;libmysql.lib;tinyxml.lib;LuaPlus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\CommLog.cpp" />
+    <ClCompile Include="..\Common\CSDataSource.cpp" />
+    <ClCompile Include="..\Common\DBActiveWrapper.cpp" />
+    <ClCompile Include="..\Common\DBMgr.cpp" />
+    <ClCompile Include="..\Common\DefLogging.cpp" />
+    <ClCompile Include="..\Common\Net\ICliSession.cpp" />
+    <ClCompile Include="..\Common\Net\IMsgHandle.cpp" />
+    <ClCompile Include="..\Common\Net\INetSession.cpp" />
+    <ClCompile Include="..\Common\Net\INetSessionMgr.cpp" />
+    <ClCompile Include="..\Common\Net\ISrvCliSession.cpp" />
+    <ClCompile Include="..\ELogging\SSActive.cpp" />
+    <ClCompile Include="..\ELogging\Timer.cpp" />
+    <ClCompile Include="..\ThirdParty\MsgLists\BSToGC.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\BSToGS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToDB.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToGS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToRC.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToSS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\DBToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToBS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToSS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToBS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToGC.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToSS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\ParseProto.cpp" />
+    <ClCompile Include="..\ThirdParty\MsgLists\RCToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\SSToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\ToLog.pb.cc" />
+    <ClCompile Include="async.cpp" />
+    <ClCompile Include="BattleMatcher\src\CMatchList_Nomal.cpp" />
+    <ClCompile Include="BattleMatcher\src\CMatchList_Tianti.cpp" />
+    <ClCompile Include="BattleMatcher\src\CMatchList_VsAI.cpp" />
+    <ClCompile Include="BattleMatcher\src\CMatchMgr.cpp" />
+    <ClCompile Include="BattleMatcher\src\CMatchTeam.cpp" />
+    <ClCompile Include="BattleMatcher\src\IMatchList.cpp" />
+    <ClCompile Include="CSBattle.cpp" />
+    <ClCompile Include="CSBattleMatcher.cpp" />
+    <ClCompile Include="CSBattleMgr.cpp" />
+    <ClCompile Include="CSBattleMgr_AskHandler.cpp" />
+    <ClCompile Include="CSBattleMgr_DBCallBacker.cpp" />
+    <ClCompile Include="CSBattleMgr_GCMsg.cpp" />
+    <ClCompile Include="CSBattleMgr_GSMsg.cpp" />
+    <ClCompile Include="CSBattleMgr_RCMsg.cpp" />
+    <ClCompile Include="CSBattleMgr_SSMsg.cpp" />
+    <ClCompile Include="CSBattleRoom.cpp" />
+    <ClCompile Include="CSBattle_MsgPoster.cpp" />
+    <ClCompile Include="CSCfgMgr.cpp" />
+    <ClCompile Include="CSGameLogMgr.cpp" />
+    <ClCompile Include="CSGSInfo.cpp" />
+    <ClCompile Include="CSGuideBattle.cpp" />
+    <ClCompile Include="CSKernel.cpp" />
+    <ClCompile Include="CSKernel_MainThread.cpp" />
+    <ClCompile Include="CSMailMgr.cpp" />
+    <ClCompile Include="CSScript.cpp" />
+    <ClCompile Include="CSSSInfo.cpp" />
+    <ClCompile Include="CSUser.cpp" />
+    <ClCompile Include="CSUserCfgMgr.cpp" />
+    <ClCompile Include="CSUserDbDataMgr.cpp" />
+    <ClCompile Include="CSUserGuideFunc.cpp" />
+    <ClCompile Include="CSUserMgr.cpp" />
+    <ClCompile Include="CSUserMgr_AskHandler.cpp" />
+    <ClCompile Include="CSUserMgr_GCGuideMsg.cpp" />
+    <ClCompile Include="CSUserMgr_GCMsg.cpp" />
+    <ClCompile Include="CSUserMgr_GMMsg.cpp" />
+    <ClCompile Include="CSUserMgr_GSMsg.cpp" />
+    <ClCompile Include="CSUserMgr_MailMsg.cpp" />
+    <ClCompile Include="CSUserMgr_Notice.cpp" />
+    <ClCompile Include="CSUserMgr_RCMsg.cpp" />
+    <ClCompile Include="CSUserMgr_RedisSynCallback.cpp" />
+    <ClCompile Include="CSUserMgr_SSMsg.cpp" />
+    <ClCompile Include="CSUserMgr_SynCdkeyDbCalBack.cpp" />
+    <ClCompile Include="CSUserMgr_SynMoneyDbCalBack.cpp" />
+    <ClCompile Include="CSUserMgr_SynUserAskDBCallBack.cpp" />
+    <ClCompile Include="CSUserMgr_UserAskDBAsyn.cpp" />
+    <ClCompile Include="CSUserMgr_UserCacheDBAsynHandler.cpp" />
+    <ClCompile Include="CSUser_MsgPoster.cpp" />
+    <ClCompile Include="CSWordFilter.cpp" />
+    <ClCompile Include="dict.c" />
+    <ClCompile Include="hiredis.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Net\CSLogSession.cpp" />
+    <ClCompile Include="Net\CSNetSessionMgr.cpp" />
+    <ClCompile Include="Net\GateSession.cpp" />
+    <ClCompile Include="Net\LogicRedisSession.cpp" />
+    <ClCompile Include="Net\RedisSession.cpp" />
+    <ClCompile Include="Net\RemoteConsoleSession.cpp" />
+    <ClCompile Include="Net\SceneSession.cpp" />
+    <ClCompile Include="sds.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="TaskSys\Task.cpp" />
+    <ClCompile Include="TaskSys\TaskMgr.cpp" />
+    <ClCompile Include="zmalloc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\CommLog.h" />
+    <ClInclude Include="..\Common\CSDataSource.h" />
+    <ClInclude Include="..\Common\DBActiveWrapper.h" />
+    <ClInclude Include="..\Common\DBMgr.h" />
+    <ClInclude Include="..\Common\DefLogging.h" />
+    <ClInclude Include="..\Common\ELoggingHeader.h" />
+    <ClInclude Include="..\Common\Net\ICliSession.h" />
+    <ClInclude Include="..\Common\Net\IMsgHandle.h" />
+    <ClInclude Include="..\Common\Net\INetSession.h" />
+    <ClInclude Include="..\Common\Net\INetSessionMgr.h" />
+    <ClInclude Include="..\Common\Net\ISrvCliSession.h" />
+    <ClInclude Include="..\Common\SafeRefPtr.h" />
+    <ClInclude Include="..\Common\SSElementArr.h" />
+    <ClInclude Include="..\ELogging\SSActive.h" />
+    <ClInclude Include="..\ELogging\Timer.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\BSToGC.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\BSToGS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToDB.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToGS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToRC.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToSS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\DBToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToBS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToSS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToBS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToGC.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToSS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\ParseProto.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\RCToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\SSToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\ToLog.pb.h" />
+    <ClInclude Include="async.h" />
+    <ClInclude Include="BattleMatcher\CMatchList_Nomal.h" />
+    <ClInclude Include="BattleMatcher\CMatchList_Tianti.h" />
+    <ClInclude Include="BattleMatcher\CMatchList_VsAI.h" />
+    <ClInclude Include="BattleMatcher\CMatchMgr.h" />
+    <ClInclude Include="BattleMatcher\CMatchTeam.h" />
+    <ClInclude Include="BattleMatcher\IMatchList.h" />
+    <ClInclude Include="CSBattle.h" />
+    <ClInclude Include="CSBattleMatcher.h" />
+    <ClInclude Include="CSBattleMgr.h" />
+    <ClInclude Include="CSBattleRoom.h" />
+    <ClInclude Include="CSCfgMgr.h" />
+    <ClInclude Include="CSGameLogMgr.h" />
+    <ClInclude Include="CSGSInfo.h" />
+    <ClInclude Include="CSGuideBattle.h" />
+    <ClInclude Include="CSKernel.h" />
+    <ClInclude Include="CSMailMgr.h" />
+    <ClInclude Include="CSRCInfo.h" />
+    <ClInclude Include="CSScript.h" />
+    <ClInclude Include="CSSSInfo.h" />
+    <ClInclude Include="CSUser.h" />
+    <ClInclude Include="CSUserDbDataMgr.h" />
+    <ClInclude Include="CSUserDBDataStruct.h" />
+    <ClInclude Include="CSUserMgr.h" />
+    <ClInclude Include="CSWordFilter.h" />
+    <ClInclude Include="dict.h" />
+    <ClInclude Include="hiredis.h" />
+    <ClInclude Include="Net\CSLogSession.h" />
+    <ClInclude Include="Net\CSNetSessionMgr.h" />
+    <ClInclude Include="Net\GateSession.h" />
+    <ClInclude Include="Net\LogicRedisSession.h" />
+    <ClInclude Include="Net\ParsePacket.h" />
+    <ClInclude Include="Net\RedisSession.h" />
+    <ClInclude Include="Net\RemoteConsoleSession.h" />
+    <ClInclude Include="Net\SceneSession.h" />
+    <ClInclude Include="RedisHelper.h" />
+    <ClInclude Include="sds.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="TaskSys\Task.h" />
+    <ClInclude Include="TaskSys\TaskMgr.h" />
+    <ClInclude Include="zmalloc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\SSElementArr.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

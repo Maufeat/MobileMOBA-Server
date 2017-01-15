@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{3b97c2a0-4ac2-4bfb-a006-ce6b3f9aab75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtobufMsg">
+      <UniqueIdentifier>{64fc02d0-61e5-4a85-be0c-29d1e3512cb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Share">
+      <UniqueIdentifier>{0faef52b-ce9d-4096-9990-42a3d8645a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{14292af2-2fb6-4fe9-8b66-3b0edbc6c59c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{0ab954f5-a8ac-473e-b229-acabbc33f993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Share\Net">
+      <UniqueIdentifier>{3ab2d03c-904d-4b69-8490-bb55f5683664}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Net\BalanceSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\ClientSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\LSNetSessionMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\BSToLS.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToBS.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToLS.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\LSToBS.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\LSToGC.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\LSToSDK.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ParseProto.cpp">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\SDKToLS.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="json_reader.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="json_value.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="json_writer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="md5Hanlder.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKAsynHandler.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="SdkConnector.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\Timer.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DefLogging.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\SSActive.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ICliSession.cpp">
+      <Filter>Share\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\IMsgHandle.cpp">
+      <Filter>Share\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSession.cpp">
+      <Filter>Share\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSessionMgr.cpp">
+      <Filter>Share\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ISrvCliSession.cpp">
+      <Filter>Share\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\logger.cpp">
+      <Filter>Share</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Net\BalanceSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\ClientSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\LSNetSessionMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\BSToLS.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToBS.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToLS.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\LSToBS.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\LSToGC.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\LSToSDK.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ParseProto.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\SDKToLS.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="LSDefine.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="md5Handler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKAsynHandler.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="SdkConnector.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="json\reader.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="json\value.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="json\writer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\Timer.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DefLogging.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\SSActive.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ICliSession.h">
+      <Filter>Share\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\IMsgHandle.h">
+      <Filter>Share\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSession.h">
+      <Filter>Share\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSessionMgr.h">
+      <Filter>Share\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ISrvCliSession.h">
+      <Filter>Share\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\logger.h">
+      <Filter>Share</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

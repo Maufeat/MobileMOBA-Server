@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9C0E8E02-E318-418A-A69F-51472AB5933C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SSBattleMgr</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;_WINDOWS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Common;../ELogging;../ThirdParty;../ThirdPArty/boost_1_63_0;../ThirdParty/Ucore/include;../ThirdParty/LuaPlus;../ThirdParty/tinyxml;../ThirdParty/LuaPLus/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4244;4267;4305;4800;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>../ThirdParty/Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libprotobuf.lib;tinyxml.lib;Winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\CommLog.cpp" />
+    <ClCompile Include="..\Common\DefLogging.cpp" />
+    <ClCompile Include="..\Common\Net\ICliSession.cpp" />
+    <ClCompile Include="..\Common\Net\IMsgHandle.cpp" />
+    <ClCompile Include="..\Common\Net\INetSession.cpp" />
+    <ClCompile Include="..\Common\Net\INetSessionMgr.cpp" />
+    <ClCompile Include="..\Common\Net\ISrvCliSession.cpp" />
+    <ClCompile Include="..\ELogging\SSActive.cpp" />
+    <ClCompile Include="..\ELogging\Timer.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaObject.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaPlus.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaPlusAddons.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaPlus_Libs.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaState.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaStateOutFile.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaState_DumpObject.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaTableIterator.cpp" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\lwstrlib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\popen.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lapi.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lauxlib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lbaselib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lcode.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldblib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldebug.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldo.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldump.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lfunc.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lgc.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\linit.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\liolib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\llex.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lmathlib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lmem.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\loadlib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lobject.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lopcodes.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\loslib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lparser.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lstate.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lstring.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lstrlib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ltable.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ltablib.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ltm.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lua.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lundump.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lvm.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lzio.c" />
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\print.c" />
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToSS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToSS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToGC.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToSS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\ParseProto.cpp" />
+    <ClCompile Include="..\ThirdParty\MsgLists\SSToCS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\SSToGS.pb.cc" />
+    <ClCompile Include="..\ThirdParty\MsgLists\ToLog.pb.cc" />
+    <ClCompile Include="BattleLogicThreadActor.cpp" />
+    <ClCompile Include="log\SSGameLogMgr.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Net\CentralSession.cpp" />
+    <ClCompile Include="Net\GateSession.cpp" />
+    <ClCompile Include="Net\SSBattleNetSessionMgr.cpp" />
+    <ClCompile Include="Net\SSLogSession.cpp" />
+    <ClCompile Include="SSAI.cpp" />
+    <ClCompile Include="SSAI_Building.cpp" />
+    <ClCompile Include="SSAI_Hero.cpp" />
+    <ClCompile Include="SSAI_HeroRobot.cpp" />
+    <ClCompile Include="SSAI_Soldier.cpp" />
+    <ClCompile Include="SSAI_Wild.cpp" />
+    <ClCompile Include="SSAltarSev.cpp" />
+    <ClCompile Include="SSAStar.cpp" />
+    <ClCompile Include="SSBattle.cpp" />
+    <ClCompile Include="SSBattleMgr.cpp" />
+    <ClCompile Include="SSBattleMgr_CSGMMsg.cpp" />
+    <ClCompile Include="SSBattleMgr_CSMsg.cpp" />
+    <ClCompile Include="SSBattleMgr_GCGuideMsg.cpp" />
+    <ClCompile Include="SSBattleMgr_GCMsg.cpp" />
+    <ClCompile Include="SSBattleMgr_GSMsg.cpp" />
+    <ClCompile Include="SSBattleMgr_MsgPoster.cpp" />
+    <ClCompile Include="SSBattle_AskHandler.cpp" />
+    <ClCompile Include="SSBattle_Func.cpp" />
+    <ClCompile Include="SSBattle_Log.cpp" />
+    <ClCompile Include="SSBattle_MsgPoster.cpp" />
+    <ClCompile Include="SSBattle_Scene.cpp" />
+    <ClCompile Include="SSBattle_Script.cpp" />
+    <ClCompile Include="SSBTreeAct_Absorb.cpp" />
+    <ClCompile Include="SSBTreeAct_BuyItem.cpp" />
+    <ClCompile Include="SSBTreeAct_FuryExpersion.cpp" />
+    <ClCompile Include="SSBTreeAct_MoveByPath.cpp" />
+    <ClCompile Include="SSBTreeAct_NormalAttack.cpp" />
+    <ClCompile Include="SSBTreeAct_PutAltarMonster.cpp" />
+    <ClCompile Include="SSBTreeAct_TransHome.cpp" />
+    <ClCompile Include="SSBTreeAct_UseSkill.cpp" />
+    <ClCompile Include="SSBTreeCon_Absorbing.cpp" />
+    <ClCompile Include="SSBTreeCon_Attacking.cpp" />
+    <ClCompile Include="SSBTreeCon_AutoAttacking.cpp" />
+    <ClCompile Include="SSBTreeCon_BeHurted.cpp" />
+    <ClCompile Include="SSBTreeCon_CheckAttackTarget.cpp" />
+    <ClCompile Include="SSBTreeCon_Control.cpp" />
+    <ClCompile Include="SSBTreeCon_CpBigger.cpp" />
+    <ClCompile Include="SSBTreeCon_Dead.cpp" />
+    <ClCompile Include="SSBTreeCon_EnemyHeroAttackFriendHero.cpp" />
+    <ClCompile Include="SSBTreeCon_EnemyHeroHPLower.cpp" />
+    <ClCompile Include="SSBTreeCon_EnemyTargetHpLowerThanHit.cpp" />
+    <ClCompile Include="SSBTreeCon_FriendHeroHurted.cpp" />
+    <ClCompile Include="SSBTreeCon_FullFury.cpp" />
+    <ClCompile Include="SSBTreeCon_GameInStartTime.cpp" />
+    <ClCompile Include="SSBTreeCon_HasAbsorbMonster.cpp" />
+    <ClCompile Include="SSBTreeCon_HasCpForAbsorb.cpp" />
+    <ClCompile Include="SSBTreeCon_HasCpToBuyItem.cpp" />
+    <ClCompile Include="SSBTreeCon_HasEmptyAbsorbSlot.cpp" />
+    <ClCompile Include="SSBTreeCon_HasEnemyHero.cpp" />
+    <ClCompile Include="SSBTreeCon_HasItemToBuy.cpp" />
+    <ClCompile Include="SSBTreeCon_HasSelfAltar.cpp" />
+    <ClCompile Include="SSBTreeCon_HasTarget.cpp" />
+    <ClCompile Include="SSBTreeCon_HaveSkillByType.cpp" />
+    <ClCompile Include="SSBTreeCon_HeroInSpring.cpp" />
+    <ClCompile Include="SSBTreeCon_HeroNumLower.cpp" />
+    <ClCompile Include="SSBTreeCon_LevelBigger.cpp" />
+    <ClCompile Include="SSBTreeCon_MonsterType.cpp" />
+    <ClCompile Include="SSBTreeCon_Moving.cpp" />
+    <ClCompile Include="SSBTreeCon_NoEnemy.cpp" />
+    <ClCompile Include="SSBTreeCon_NoEnemyHero.cpp" />
+    <ClCompile Include="SSBTreeCon_NotBeHurt.cpp" />
+    <ClCompile Include="SSBTreeCon_NotSilence.cpp" />
+    <ClCompile Include="SSBTreeCon_PrepareSkill.cpp" />
+    <ClCompile Include="SSBTreeCon_Random.cpp" />
+    <ClCompile Include="SSBTreeCon_Restrain.cpp" />
+    <ClCompile Include="SSBTreeCon_SelfHPLower.cpp" />
+    <ClCompile Include="SSBTreeCon_SkillHasCost.cpp" />
+    <ClCompile Include="SSBTreeCon_SkillInDist.cpp" />
+    <ClCompile Include="SSBTreeCon_SkillNotCD.cpp" />
+    <ClCompile Include="SSBTreeCon_SkillOutDist.cpp" />
+    <ClCompile Include="SSBTreeCon_SkillTypeCheck.cpp" />
+    <ClCompile Include="SSBTreeCon_TransHome.cpp" />
+    <ClCompile Include="SSBTreeCon_UsingSkill.cpp" />
+    <ClCompile Include="SSCfgMgr.cpp" />
+    <ClCompile Include="SSCfgMgrExt.cpp" />
+    <ClCompile Include="SSEffectMgr.cpp" />
+    <ClCompile Include="SSGameObject.cpp" />
+    <ClCompile Include="SSGameUnit.cpp" />
+    <ClCompile Include="SSGSInfo.cpp" />
+    <ClCompile Include="SSGuideBattle.cpp" />
+    <ClCompile Include="SSGUParameter.cpp" />
+    <ClCompile Include="SSGUParameterMgr.cpp" />
+    <ClCompile Include="SSHero.cpp" />
+    <ClCompile Include="SSight.cpp" />
+    <ClCompile Include="SSightLight.cpp" />
+    <ClCompile Include="SSightMgr.cpp" />
+    <ClCompile Include="SSMoveMgr.cpp" />
+    <ClCompile Include="SSMoveTool.cpp" />
+    <ClCompile Include="SSNPC.cpp" />
+    <ClCompile Include="SSOBSev.cpp" />
+    <ClCompile Include="SSPassitiveEffect.cpp" />
+    <ClCompile Include="SSPassitiveEffect_BloodSeek.cpp" />
+    <ClCompile Include="SSPassitiveEffect_Rebound.cpp" />
+    <ClCompile Include="SSPassitiveEffect_Relive.cpp" />
+    <ClCompile Include="SSPassiveSkill.cpp" />
+    <ClCompile Include="SSPassiveSkillMgr.cpp" />
+    <ClCompile Include="SSProfileStatics.cpp" />
+    <ClCompile Include="SSSkill.cpp" />
+    <ClCompile Include="SSSkillEffect.cpp" />
+    <ClCompile Include="SSSkillEffect_Buf.cpp" />
+    <ClCompile Include="SSSkillEffect_Caculate.cpp" />
+    <ClCompile Include="SSSkillEffect_Fly.cpp" />
+    <ClCompile Include="SSSkillEffect_Leading.cpp" />
+    <ClCompile Include="SSSkillEffect_Link.cpp" />
+    <ClCompile Include="SSSkillEffect_Move.cpp" />
+    <ClCompile Include="SSSkillEffect_Purification.cpp" />
+    <ClCompile Include="SSSkillEffect_Range.cpp" />
+    <ClCompile Include="SSSkillEffect_Summon.cpp" />
+    <ClCompile Include="SSSkillEffect_Switch.cpp" />
+    <ClCompile Include="SSSolderSev.cpp" />
+    <ClCompile Include="SSUser.cpp" />
+    <ClCompile Include="SSUserMgr.cpp" />
+    <ClCompile Include="SSUserMgr_CSMsg.cpp" />
+    <ClCompile Include="SSUserMgr_GCMsg.cpp" />
+    <ClCompile Include="SSVMMgr.cpp" />
+    <ClCompile Include="SSWorkThreadMgr.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Common\CommLog.h" />
+    <ClInclude Include="..\Common\DefLogging.h" />
+    <ClInclude Include="..\Common\ELoggingHeader.h" />
+    <ClInclude Include="..\Common\Net\ICliSession.h" />
+    <ClInclude Include="..\Common\Net\IMsgHandle.h" />
+    <ClInclude Include="..\Common\Net\INetSession.h" />
+    <ClInclude Include="..\Common\Net\INetSessionMgr.h" />
+    <ClInclude Include="..\Common\Net\ISrvCliSession.h" />
+    <ClInclude Include="..\Common\SafeRefPtr.h" />
+    <ClInclude Include="..\Common\SSElementArr.h" />
+    <ClInclude Include="..\Common\Tools.h" />
+    <ClInclude Include="..\ELogging\SSActive.h" />
+    <ClInclude Include="..\ELogging\Timer.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lapi.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lauxlib.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lcode.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ldebug.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ldo.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lfunc.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lgc.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\llex.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\llimits.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lmem.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lobject.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lopcodes.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lparser.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lstate.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lstring.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ltable.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ltm.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lua.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\luaconf.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lualib.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lundump.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lvm.h" />
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lzio.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToSS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToSS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToSS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\ParseProto.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\SSToCS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\SSToGS.pb.h" />
+    <ClInclude Include="..\ThirdParty\MsgLists\ToLog.pb.h" />
+    <ClInclude Include="ISSightLight.h" />
+    <ClInclude Include="ISSParameterChangeCallBack.h" />
+    <ClInclude Include="log\SSGameLogMgr.h" />
+    <ClInclude Include="Net\CentralSession.h" />
+    <ClInclude Include="Net\GateSession.h" />
+    <ClInclude Include="Net\SSBattleNetSessionMgr.h" />
+    <ClInclude Include="Net\SSLogSession.h" />
+    <ClInclude Include="SSAI.h" />
+    <ClInclude Include="SSAI_Building.h" />
+    <ClInclude Include="SSAI_Hero.h" />
+    <ClInclude Include="SSAI_HeroRobot.h" />
+    <ClInclude Include="SSAI_Soldier.h" />
+    <ClInclude Include="SSAI_Wild.h" />
+    <ClInclude Include="SSAltarSev.h" />
+    <ClInclude Include="SSAStar.h" />
+    <ClInclude Include="SSBattle.h" />
+    <ClInclude Include="SSBattleMgr.h" />
+    <ClInclude Include="SSBattle_Script.h" />
+    <ClInclude Include="SSBTreeAction.h" />
+    <ClInclude Include="SSBTreeAct_Absorb.h" />
+    <ClInclude Include="SSBTreeAct_BuyItem.h" />
+    <ClInclude Include="SSBTreeAct_FuryExpersion.h" />
+    <ClInclude Include="SSBTreeAct_MoveByPath.h" />
+    <ClInclude Include="SSBTreeAct_NormalAttack.h" />
+    <ClInclude Include="SSBTreeAct_PutAltarMonster.h" />
+    <ClInclude Include="SSBTreeAct_TransHome.h" />
+    <ClInclude Include="SSBTreeAct_UseSkill.h" />
+    <ClInclude Include="SSBTreeAct_Wait.h" />
+    <ClInclude Include="SSBTreeCondition.h" />
+    <ClInclude Include="SSBTreeCon_Absorbing.h" />
+    <ClInclude Include="SSBTreeCon_Attacking.h" />
+    <ClInclude Include="SSBTreeCon_AutoAttacking.h" />
+    <ClInclude Include="SSBTreeCon_BeHurted.h" />
+    <ClInclude Include="SSBTreeCon_CheckAttackTarget.h" />
+    <ClInclude Include="SSBTreeCon_Control.h" />
+    <ClInclude Include="SSBTreeCon_CpBigger.h" />
+    <ClInclude Include="SSBTreeCon_Dead.h" />
+    <ClInclude Include="SSBTreeCon_EnemyHeroAttackFriendHero.h" />
+    <ClInclude Include="SSBTreeCon_EnemyHeroHPLower.h" />
+    <ClInclude Include="SSBTreeCon_EnemyTargetHpLowerThanHit.h" />
+    <ClInclude Include="SSBTreeCon_FriendHeroHurted.h" />
+    <ClInclude Include="SSBTreeCon_FullFury.h" />
+    <ClInclude Include="SSBTreeCon_GameInStartTime.h" />
+    <ClInclude Include="SSBTreeCon_HasAbsorbMonster.h" />
+    <ClInclude Include="SSBTreeCon_HasCpForAbsorb.h" />
+    <ClInclude Include="SSBTreeCon_HasCpToBuyItem.h" />
+    <ClInclude Include="SSBTreeCon_HasEmptyAbsorbSlot.h" />
+    <ClInclude Include="SSBTreeCon_HasEnemyHero.h" />
+    <ClInclude Include="SSBTreeCon_HasItemToBuy.h" />
+    <ClInclude Include="SSBTreeCon_HasSelfAltar.h" />
+    <ClInclude Include="SSBTreeCon_HasTarget.h" />
+    <ClInclude Include="SSBTreeCon_HaveSkillByType.h" />
+    <ClInclude Include="SSBTreeCon_HeroInSpring.h" />
+    <ClInclude Include="SSBTreeCon_HeroNumLower.h" />
+    <ClInclude Include="SSBTreeCon_LevelBigger.h" />
+    <ClInclude Include="SSBTreeCon_MonsterType.h" />
+    <ClInclude Include="SSBTreeCon_Moving.h" />
+    <ClInclude Include="SSBTreeCon_NoEnemy.h" />
+    <ClInclude Include="SSBTreeCon_NoEnemyHero.h" />
+    <ClInclude Include="SSBTreeCon_NotBeHurt.h" />
+    <ClInclude Include="SSBTreeCon_NotSilence.h" />
+    <ClInclude Include="SSBTreeCon_PrepareSkill.h" />
+    <ClInclude Include="SSBTreeCon_Random.h" />
+    <ClInclude Include="SSBTreeCon_Restrain.h" />
+    <ClInclude Include="SSBTreeCon_SelfHPLower.h" />
+    <ClInclude Include="SSBTreeCon_SkillHasCost.h" />
+    <ClInclude Include="SSBTreeCon_SkillInDist.h" />
+    <ClInclude Include="SSBTreeCon_SkillNotCD.h" />
+    <ClInclude Include="SSBTreeCon_SkillOutDist.h" />
+    <ClInclude Include="SSBTreeCon_SkillTypeCheck.h" />
+    <ClInclude Include="SSBTreeCon_TransHome.h" />
+    <ClInclude Include="SSBTreeCon_UsingSkill.h" />
+    <ClInclude Include="SSBTreeNode.h" />
+    <ClInclude Include="SSBTreeSelector.h" />
+    <ClInclude Include="SSBTreeSequence.h" />
+    <ClInclude Include="SSCfgMgr.h" />
+    <ClInclude Include="SSDataStructure.h" />
+    <ClInclude Include="SSEffectMgr.h" />
+    <ClInclude Include="SSGameObject.h" />
+    <ClInclude Include="SSGameUnit.h" />
+    <ClInclude Include="SSGSInfo.h" />
+    <ClInclude Include="SSGuideBattle.h" />
+    <ClInclude Include="SSGUParameter.h" />
+    <ClInclude Include="SSGUParameterMgr.h" />
+    <ClInclude Include="SSHero.h" />
+    <ClInclude Include="SSight.h" />
+    <ClInclude Include="SSightLight.h" />
+    <ClInclude Include="SSightMgr.h" />
+    <ClInclude Include="SSightObject.h" />
+    <ClInclude Include="SSightTool.h" />
+    <ClInclude Include="SSIntersectObject.h" />
+    <ClInclude Include="SSMoveMgr.h" />
+    <ClInclude Include="SSMoveObject.h" />
+    <ClInclude Include="SSMoveObjectHolder.h" />
+    <ClInclude Include="SSMoveTool.h" />
+    <ClInclude Include="SSNPC.h" />
+    <ClInclude Include="SSObjectPool.h" />
+    <ClInclude Include="SSOBSev.h" />
+    <ClInclude Include="SSPassitiveEffect.h" />
+    <ClInclude Include="SSPassitiveEffect_BloodSeek.h" />
+    <ClInclude Include="SSPassitiveEffect_Rebound.h" />
+    <ClInclude Include="SSPassitiveEffect_Relive.h" />
+    <ClInclude Include="SSPassiveSkill.h" />
+    <ClInclude Include="SSPassiveSkillMgr.h" />
+    <ClInclude Include="SSProfileStatics.h" />
+    <ClInclude Include="SSSkill.h" />
+    <ClInclude Include="SSSkillEffect.h" />
+    <ClInclude Include="SSSkillEffect_Buf.h" />
+    <ClInclude Include="SSSkillEffect_Caculate.h" />
+    <ClInclude Include="SSSkillEffect_Fly.h" />
+    <ClInclude Include="SSSkillEffect_Leading.h" />
+    <ClInclude Include="SSSkillEffect_Link.h" />
+    <ClInclude Include="SSSkillEffect_Move.h" />
+    <ClInclude Include="SSSkillEffect_Purification.h" />
+    <ClInclude Include="SSSkillEffect_Range.h" />
+    <ClInclude Include="SSSkillEffect_Summon.h" />
+    <ClInclude Include="SSSkillEffect_Switch.h" />
+    <ClInclude Include="SSSolderSev.h" />
+    <ClInclude Include="SSUser.h" />
+    <ClInclude Include="SSVMMgr.h" />
+    <ClInclude Include="SSWorkThreadMgr.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\SSElementArr.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

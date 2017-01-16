@@ -1,0 +1,1152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{9fdc1647-6628-4345-8bc2-6126400047f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battle">
+      <UniqueIdentifier>{62b0a111-3727-451f-add7-3bcfa6412d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BattleMgr">
+      <UniqueIdentifier>{2654d233-c590-4d36-b7ef-8befb1a244d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cfg">
+      <UniqueIdentifier>{e2b39b01-b28c-4d83-97d1-7dadf92bd6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLog">
+      <UniqueIdentifier>{be257726-7332-40fd-a2e3-241b1d2852f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GM">
+      <UniqueIdentifier>{8d7b123e-1643-47a4-b2a2-efbe5d3528bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GO">
+      <UniqueIdentifier>{9cf67e52-fcea-4c31-a823-8a3da2917859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guide">
+      <UniqueIdentifier>{107620cb-1b50-4e9d-94f5-0aafb552e335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{fbe7f91c-92d5-4693-98ee-36aeb01047c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{4f37adb9-0c8a-4194-874c-97cf706c58a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Move">
+      <UniqueIdentifier>{1dfa4bcc-c769-4ea4-b1be-93995452aa81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{08b817aa-3036-423e-bafe-6c17bb668cea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OB">
+      <UniqueIdentifier>{adf99de3-2bdf-4b96-b3e6-c81560463132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profile">
+      <UniqueIdentifier>{4d5dfceb-770d-4b24-81fe-cadc9e9f079c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protobuf">
+      <UniqueIdentifier>{4578c926-5585-4a19-bac4-e9883e3e3e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{0aeae9d6-40a8-49ec-9b12-58b6f66cb160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sight">
+      <UniqueIdentifier>{1e960db2-5518-4112-a283-b014d1af5a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill">
+      <UniqueIdentifier>{652200d4-fe79-4aa9-b962-113e04d94b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solder">
+      <UniqueIdentifier>{d9a2d50e-2655-464c-ba3b-35981d0e9eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{a2859e25-bbdd-4b83-97fa-70958eccda45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{ed3fdd9d-4960-446d-ba66-abd56f995be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WokThreadMgr">
+      <UniqueIdentifier>{cab69d9b-ada3-44ca-b7e3-3a7240d9bb3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehviorTree">
+      <UniqueIdentifier>{91369740-b1e4-4e00-bbb5-9ba4bf05aa5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehviorTree\Leaf">
+      <UniqueIdentifier>{b8666755-7888-42b8-a898-4c65426716f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehviorTree\Leaf\Action">
+      <UniqueIdentifier>{a301ef5d-a328-4362-9fe0-054827a9dba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\BehviorTree\Leaf\Condition">
+      <UniqueIdentifier>{815ad16b-01f7-4383-9a20-6448cb8928cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skill\PassiveSkill">
+      <UniqueIdentifier>{a1225348-5a11-46fb-930b-81c591411a34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solder\Altar">
+      <UniqueIdentifier>{6e811de6-1ccb-4493-86f9-f70381ba884a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solder\Sold">
+      <UniqueIdentifier>{773fbbd8-7491-4e5d-9db8-e3deb9030835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solder\Vm">
+      <UniqueIdentifier>{3f41034f-6ede-478e-897e-696f9e1cb0d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SSAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAI_Building.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAI_Hero.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAI_HeroRobot.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAI_Soldier.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAI_Wild.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_Absorb.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_BuyItem.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_FuryExpersion.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_MoveByPath.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_NormalAttack.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_PutAltarMonster.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_TransHome.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeAct_UseSkill.cpp">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Absorbing.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Attacking.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_AutoAttacking.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_BeHurted.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_CheckAttackTarget.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Control.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_CpBigger.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Dead.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_EnemyHeroAttackFriendHero.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_EnemyHeroHPLower.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_EnemyTargetHpLowerThanHit.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_FriendHeroHurted.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_FullFury.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_GameInStartTime.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasAbsorbMonster.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasCpForAbsorb.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasCpToBuyItem.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasEmptyAbsorbSlot.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasEnemyHero.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasItemToBuy.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasSelfAltar.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HasTarget.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HaveSkillByType.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HeroInSpring.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_HeroNumLower.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_LevelBigger.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_MonsterType.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Moving.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_NoEnemy.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_NoEnemyHero.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_NotBeHurt.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_NotSilence.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_PrepareSkill.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Random.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_Restrain.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_SelfHPLower.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_SkillHasCost.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_SkillInDist.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_SkillNotCD.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_SkillOutDist.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_SkillTypeCheck.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_TransHome.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBTreeCon_UsingSkill.cpp">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle_AskHandler.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle_Func.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle_MsgPoster.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle_Scene.cpp">
+      <Filter>Battle</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr.cpp">
+      <Filter>BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr_CSMsg.cpp">
+      <Filter>BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr_GCMsg.cpp">
+      <Filter>BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr_GSMsg.cpp">
+      <Filter>BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr_MsgPoster.cpp">
+      <Filter>BattleMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSCfgMgr.cpp">
+      <Filter>Cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="SSCfgMgrExt.cpp">
+      <Filter>Cfg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CommLog.cpp">
+      <Filter>GameLog</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle_Log.cpp">
+      <Filter>GameLog</Filter>
+    </ClCompile>
+    <ClCompile Include="log\SSGameLogMgr.cpp">
+      <Filter>GameLog</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr_CSGMMsg.cpp">
+      <Filter>GM</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGameObject.cpp">
+      <Filter>GO</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGameUnit.cpp">
+      <Filter>GO</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGUParameter.cpp">
+      <Filter>GO</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGUParameterMgr.cpp">
+      <Filter>GO</Filter>
+    </ClCompile>
+    <ClCompile Include="SSHero.cpp">
+      <Filter>GO</Filter>
+    </ClCompile>
+    <ClCompile Include="SSNPC.cpp">
+      <Filter>GO</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattleMgr_GCGuideMsg.cpp">
+      <Filter>Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGuideBattle.cpp">
+      <Filter>Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DefLogging.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lapi.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lauxlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lbaselib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lcode.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldblib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldebug.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldo.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ldump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lfunc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lgc.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\linit.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\liolib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\llex.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lmathlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lmem.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\loadlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lobject.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lopcodes.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\loslib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lparser.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lstate.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lstring.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lstrlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ltable.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ltablib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\ltm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lua.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lundump.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lvm.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\lzio.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\src\print.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaObject.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaPlus.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaPlus_Libs.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaPlusAddons.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaState.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaState_DumpObject.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaStateOutFile.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\LuaTableIterator.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\lwstrlib.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\LuaPlus\popen.c">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAStar.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="SSMoveMgr.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="SSMoveTool.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\CentralSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\GateSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\SSBattleNetSessionMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\SSLogSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ICliSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\IMsgHandle.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSessionMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ISrvCliSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="SSOBSev.cpp">
+      <Filter>OB</Filter>
+    </ClCompile>
+    <ClCompile Include="SSProfileStatics.cpp">
+      <Filter>Profile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\CSToSS.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GCToSS.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToCS.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToSS.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\SSToCS.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\SSToGS.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ToLog.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="SSBattle_Script.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="SSight.cpp">
+      <Filter>Sight</Filter>
+    </ClCompile>
+    <ClCompile Include="SSightLight.cpp">
+      <Filter>Sight</Filter>
+    </ClCompile>
+    <ClCompile Include="SSightMgr.cpp">
+      <Filter>Sight</Filter>
+    </ClCompile>
+    <ClCompile Include="SSEffectMgr.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkill.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Buf.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Caculate.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Fly.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Leading.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Link.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Move.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Purification.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Range.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Summon.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSkillEffect_Switch.cpp">
+      <Filter>Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSPassitiveEffect.cpp">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSPassitiveEffect_BloodSeek.cpp">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSPassitiveEffect_Rebound.cpp">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSPassitiveEffect_Relive.cpp">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSPassiveSkill.cpp">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSPassiveSkillMgr.cpp">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAltarSev.cpp">
+      <Filter>Solder\Altar</Filter>
+    </ClCompile>
+    <ClCompile Include="SSVMMgr.cpp">
+      <Filter>Solder\Vm</Filter>
+    </ClCompile>
+    <ClCompile Include="SSSolderSev.cpp">
+      <Filter>Solder\Sold</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ParseProto.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SSGSInfo.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SSUser.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="SSUserMgr.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="SSUserMgr_CSMsg.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="SSUserMgr_GCMsg.cpp">
+      <Filter>User</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleLogicThreadActor.cpp">
+      <Filter>WokThreadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SSWorkThreadMgr.cpp">
+      <Filter>WokThreadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\SSActive.cpp">
+      <Filter>WokThreadMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\GSToGC.pb.cc">
+      <Filter>Protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\ELogging\Timer.cpp">
+      <Filter>WokThreadMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SSAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAI_Building.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAI_Hero.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAI_HeroRobot.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAI_Soldier.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAI_Wild.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeNode.h">
+      <Filter>AI\BehviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeSelector.h">
+      <Filter>AI\BehviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeSequence.h">
+      <Filter>AI\BehviorTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_Absorb.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_BuyItem.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_FuryExpersion.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_MoveByPath.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_NormalAttack.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_PutAltarMonster.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_TransHome.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_UseSkill.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAct_Wait.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeAction.h">
+      <Filter>AI\BehviorTree\Leaf\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Absorbing.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Attacking.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_AutoAttacking.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_BeHurted.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_CheckAttackTarget.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Control.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_CpBigger.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Dead.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_EnemyHeroAttackFriendHero.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_EnemyHeroHPLower.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_EnemyTargetHpLowerThanHit.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_FriendHeroHurted.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_FullFury.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_GameInStartTime.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasAbsorbMonster.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasCpForAbsorb.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasCpToBuyItem.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasEmptyAbsorbSlot.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasEnemyHero.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasItemToBuy.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasSelfAltar.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HasTarget.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HaveSkillByType.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HeroInSpring.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_HeroNumLower.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_LevelBigger.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_MonsterType.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Moving.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_NoEnemy.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_NoEnemyHero.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_NotBeHurt.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_NotSilence.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_PrepareSkill.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Random.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_Restrain.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_SelfHPLower.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_SkillHasCost.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_SkillInDist.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_SkillNotCD.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_SkillOutDist.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_SkillTypeCheck.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_TransHome.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCon_UsingSkill.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBTreeCondition.h">
+      <Filter>AI\BehviorTree\Leaf\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBattle.h">
+      <Filter>Battle</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBattleMgr.h">
+      <Filter>BattleMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SSCfgMgr.h">
+      <Filter>Cfg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CommLog.h">
+      <Filter>GameLog</Filter>
+    </ClInclude>
+    <ClInclude Include="log\SSGameLogMgr.h">
+      <Filter>GameLog</Filter>
+    </ClInclude>
+    <ClInclude Include="ISSParameterChangeCallBack.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SafeRefPtr.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGameObject.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGameUnit.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGUParameter.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGUParameterMgr.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSHero.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSNPC.h">
+      <Filter>GO</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGuideBattle.h">
+      <Filter>Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DefLogging.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ELoggingHeader.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lapi.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lauxlib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lcode.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ldebug.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ldo.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lfunc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lgc.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\llex.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\llimits.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lmem.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lobject.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lopcodes.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lparser.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lstate.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lstring.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ltable.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\ltm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lua.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\luaconf.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lualib.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lundump.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lvm.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\LuaPlus\src\lzio.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAStar.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="SSIntersectObject.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMoveMgr.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMoveObject.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMoveObjectHolder.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="SSMoveTool.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\CentralSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\GateSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\SSBattleNetSessionMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\SSLogSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ICliSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\IMsgHandle.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSessionMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ISrvCliSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="SSOBSev.h">
+      <Filter>OB</Filter>
+    </ClInclude>
+    <ClInclude Include="SSProfileStatics.h">
+      <Filter>Profile</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\CSToSS.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GCToSS.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToCS.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\GSToSS.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\SSToCS.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\SSToGS.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ToLog.pb.h">
+      <Filter>Protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="SSBattle_Script.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="ISSightLight.h">
+      <Filter>Sight</Filter>
+    </ClInclude>
+    <ClInclude Include="SSight.h">
+      <Filter>Sight</Filter>
+    </ClInclude>
+    <ClInclude Include="SSightLight.h">
+      <Filter>Sight</Filter>
+    </ClInclude>
+    <ClInclude Include="SSightMgr.h">
+      <Filter>Sight</Filter>
+    </ClInclude>
+    <ClInclude Include="SSightObject.h">
+      <Filter>Sight</Filter>
+    </ClInclude>
+    <ClInclude Include="SSightTool.h">
+      <Filter>Sight</Filter>
+    </ClInclude>
+    <ClInclude Include="SSEffectMgr.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkill.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Buf.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Caculate.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Fly.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Leading.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Link.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Move.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Purification.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Range.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Summon.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSkillEffect_Switch.h">
+      <Filter>Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPassitiveEffect.h">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPassitiveEffect_BloodSeek.h">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPassitiveEffect_Rebound.h">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPassitiveEffect_Relive.h">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPassiveSkill.h">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSPassiveSkillMgr.h">
+      <Filter>Skill\PassiveSkill</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAltarSev.h">
+      <Filter>Solder\Altar</Filter>
+    </ClInclude>
+    <ClInclude Include="SSVMMgr.h">
+      <Filter>Solder\Vm</Filter>
+    </ClInclude>
+    <ClInclude Include="SSSolderSev.h">
+      <Filter>Solder\Sold</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ParseProto.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\SSElementArr.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SSDataStructure.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SSGSInfo.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SSObjectPool.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SSUser.h">
+      <Filter>User</Filter>
+    </ClInclude>
+    <ClInclude Include="SSWorkThreadMgr.h">
+      <Filter>WokThreadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\SSActive.h">
+      <Filter>WokThreadMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\ELogging\Timer.h">
+      <Filter>WokThreadMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\SSElementArr.inl">
+      <Filter>Tools</Filter>
+    </None>
+  </ItemGroup>
+</Project>

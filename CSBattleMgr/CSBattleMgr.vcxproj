@@ -134,6 +134,7 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;CSDATASOURCE_EXPORTS;_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>..\ThirdParty\MsgLists;..\ThirdParty\LuaPlus\src;..\ThirdParty\LuaPlus;..\Common;..\ThirdParty\tinyxml;..\ThirdParty\boost_1_63_0;..\ThirdParty;..\ELogging;..\ThirdParty\tbb_lib;..\ThirdParty\UCore\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DisableSpecificWarnings>4244;4267;4305;4800;4996</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

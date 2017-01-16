@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{dfce3cd7-d4a9-40ec-b835-8b2f7737b205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Net">
+      <UniqueIdentifier>{a1c2cb79-c533-40b1-a317-9108ecef4d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtobufMsg">
+      <UniqueIdentifier>{61400ae7-73d3-4a1c-829f-bd3c911c51f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared">
+      <UniqueIdentifier>{d38e9b39-75bc-42db-99bc-a40594c37153}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CSDataSource.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DBActiveWrapper.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DBMgr.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\SSActive.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ELogging\Timer.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\ClientSession.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="Net\LogNetSessionMgr.h">
+      <Filter>Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ParseProto.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\MsgLists\ToLog.pb.h">
+      <Filter>ProtobufMsg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ICliSession.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\IMsgHandle.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSession.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\INetSessionMgr.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Net\ISrvCliSession.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ELogging.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ELoggingHeader.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="LogHandler.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="LogServer.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CSDataSource.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DBActiveWrapper.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DBMgr.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\SSActive.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ELogging\Timer.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\ClientSession.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="Net\LogNetSessionMgr.cpp">
+      <Filter>Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ParseProto.cpp">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\MsgLists\ToLog.pb.cc">
+      <Filter>ProtobufMsg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ICliSession.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\IMsgHandle.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSession.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\INetSessionMgr.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Net\ISrvCliSession.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="LogHandler.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

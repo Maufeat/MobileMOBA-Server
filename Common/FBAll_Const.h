@@ -7,7 +7,7 @@
 #include <time.h>
 #include <atltime.h>
 #include <sstream>
-#include "boost/spirit.hpp" 
+#include "boost/spirit/include/classic.hpp" 
 #include "boost/algorithm/string.hpp"
 #include <random>
 
